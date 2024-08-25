@@ -1,6 +1,6 @@
 Dotfiles backup for my KDE Plasma 6 setup
 
-# Stuff Used
+### Stuff Used
 **Text Fonts**
 - Inter (System Font)
 - JetBrains Mono (VS Codium Font)
@@ -22,4 +22,4 @@ Dotfiles backup for my KDE Plasma 6 setup
 - Login Screen (SDDM): Breeze
 
 **Wallpapers**
-All are from [this artist](https://www.pixiv.net/en/users/12845810)
+- All are from [this artist](https://www.pixiv.net/en/users/12845810)
