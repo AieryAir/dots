@@ -1,0 +1,28 @@
+2024-08-26 00:00:54.173 [info] Extension host with pid 38796 started
+2024-08-26 00:00:54.251 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-26 00:00:54.267 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-26 00:00:54.320 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-26 00:00:54.371 [info] Eager extensions activated
+2024-08-26 00:00:54.383 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-26 00:00:54.385 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-26 00:00:55.960 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-26 00:01:04.138 [info] ExtensionService#_doActivateExtension s-nlf-fh.glassit, startup: false, activationEvent: '*'
+2024-08-26 00:01:04.185 [error] Activating extension s-nlf-fh.glassit failed due to an error:
+2024-08-26 00:01:04.185 [error] Error: Command failed: pgrep 'code'
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at checkExecSyncError (node:child_process:905:11)
+	at Object.execSync (node:child_process:977:15)
+	at Object.execSync (node:electron/js2c/node_init:2:13164)
+	at activate (/home/aiery/.vscode-oss/extensions/s-nlf-fh.glassit-0.2.3-universal/extension.js:46:31)
+	at B._callActivateOptional (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:17427)
+	at B._callActivate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:17034)
+	at /usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:14700
+	at async m._activate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:8039)
+	at async m._waitForDepsThenActivate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:7981)
+	at async m._initialize (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:7345)
+2024-08-26 00:01:23.833 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-26 00:01:23.841 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-26 00:01:23.884 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-26 00:03:34.381 [info] Extension host terminating: renderer closed the MessagePort
+2024-08-26 00:03:34.387 [info] Extension host with pid 38796 exiting with code 0

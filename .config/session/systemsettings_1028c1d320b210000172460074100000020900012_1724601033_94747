@@ -1,0 +1,7 @@
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=SettingsBase
+ObjectName=MainWindow#1
+ToolBarsMovable=Disabled

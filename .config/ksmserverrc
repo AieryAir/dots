@@ -1,0 +1,21 @@
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=1028c1d320b210000172460061200000020900004
+clientId2=1028c1d320b210000172460061300000020900006
+clientId3=1028c1d320b210000172460074100000020900012
+count=3
+discardCommand3[$e]=rm,$HOME/.config/session/systemsettings_1028c1d320b210000172460074100000020900012_1724601033_94747
+program1=/usr/libexec/DiscoverNotifier
+program2=/usr/bin/kalendarac
+program3=/usr/bin/systemsettings
+restartCommand1=/usr/libexec/DiscoverNotifier,-session,1028c1d320b210000172460061200000020900004_1724601033_94695
+restartCommand2=/usr/bin/kalendarac,-session,1028c1d320b210000172460061300000020900006_1724601033_94697
+restartCommand3=/usr/bin/systemsettings,-session,1028c1d320b210000172460074100000020900012_1724601033_94747
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+userId1=aiery
+userId2=aiery
+userId3=aiery

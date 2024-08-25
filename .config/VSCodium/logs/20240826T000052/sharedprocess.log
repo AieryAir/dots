@@ -1,0 +1,24 @@
+2024-08-26 00:01:01.696 [info] Getting Manifest... s-nlf-fh.glassit
+2024-08-26 00:01:01.945 [info] Installing extension: s-nlf-fh.glassit {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aiery/.vscode-oss/extensions/extensions.json","path":"/home/aiery/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-15T18:27:27.910Z"}}
+2024-08-26 00:01:04.093 [info] Extracted extension to file:///home/aiery/.vscode-oss/extensions/s-nlf-fh.glassit-0.2.3-universal: s-nlf-fh.glassit
+2024-08-26 00:01:04.095 [info] Renamed to /home/aiery/.vscode-oss/extensions/s-nlf-fh.glassit-0.2.3-universal
+2024-08-26 00:01:04.103 [info] Extension installed successfully: s-nlf-fh.glassit vscode-userdata:/home/aiery/.vscode-oss/extensions/extensions.json
+2024-08-26 00:01:04.176 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aiery/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aiery/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22226)
+    at h (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22357)
+    at S.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:48043)
+    at S.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:38518)
+    at async c.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:19793)
+    at async q.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:148300)
+2024-08-26 00:01:09.905 [info] Getting Manifest... a5hk.paper
+2024-08-26 00:01:10.139 [info] Installing extension: a5hk.paper {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aiery/.vscode-oss/extensions/extensions.json","path":"/home/aiery/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-15T18:27:27.910Z"}}
+2024-08-26 00:01:11.789 [info] Extracted extension to file:///home/aiery/.vscode-oss/extensions/a5hk.paper-2.1.0-universal: a5hk.paper
+2024-08-26 00:01:11.791 [info] Renamed to /home/aiery/.vscode-oss/extensions/a5hk.paper-2.1.0-universal
+2024-08-26 00:01:11.797 [info] Extension installed successfully: a5hk.paper vscode-userdata:/home/aiery/.vscode-oss/extensions/extensions.json
+2024-08-26 00:01:11.869 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/aiery/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/aiery/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22226)
+    at h (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:22357)
+    at S.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:48043)
+    at S.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:38518)
+    at async c.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:19793)
+    at async q.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:148300)

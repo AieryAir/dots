@@ -1,0 +1,31 @@
+2024-08-25 16:32:32.541 [info] [main] Log level: Info
+2024-08-25 16:32:32.541 [info] [main] Validating found git in: "git"
+2024-08-25 16:32:32.541 [info] [main] Using git "2.46.0" from "git"
+2024-08-25 16:32:32.541 [info] [Model][doInitialScan] Initial repository scan started
+2024-08-25 16:32:32.541 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-25 16:32:32.541 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-08-25 16:32:32.541 [info] [Model][openRepository] Opened repository: /home/aiery/repos/cpp-calculator
+2024-08-25 16:32:32.541 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-08-25 16:32:32.542 [info] > git config --get commit.template [9ms]
+2024-08-25 16:32:32.555 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-08-25 16:32:32.559 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aiery/repos/cpp-calculator/.git/refs/remotes/origin/main'
+2024-08-25 16:32:32.560 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-25 16:32:32.564 [info] > git status -z -uall [1ms]
+2024-08-25 16:32:32.577 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-08-25 16:32:32.582 [info] > git config --get commit.template [5ms]
+2024-08-25 16:32:32.583 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-08-25 16:32:32.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-08-25 16:32:32.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [14ms]
+2024-08-25 16:32:32.609 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/aiery/repos/cpp-calculator/.git/refs/remotes/origin/main'
+2024-08-25 16:32:32.609 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-08-25 16:32:32.612 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-08-25 16:32:32.615 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [3ms]
+2024-08-25 16:32:32.619 [info] > git status -z -uall [4ms]
+2024-08-25 16:32:32.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-25 16:32:32.627 [info] > git diff --name-status -z --diff-filter=ADMR 30622b9ebeee9c3faadc4fddaf0285a3fa580b81...refs/remotes/origin/main [9ms]
+2024-08-25 16:32:32.628 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-08-25 16:32:32.632 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-08-25 16:32:32.822 [info] > git show --textconv :main.cpp [5ms]
+2024-08-25 16:32:32.823 [info] > git ls-files --stage -- /home/aiery/repos/cpp-calculator/main.cpp [3ms]
+2024-08-25 16:32:32.828 [info] > git cat-file -s 5e8c8b2ba29579aae0800657dcfb7dd7e813b48e [1ms]
+2024-08-25 16:32:33.033 [info] > git check-ignore -v -z --stdin [2ms]

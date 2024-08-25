@@ -1,0 +1,13 @@
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/64337772_p0.jpg
+Name1[$e]=64337772_p0.jpg
+
+[SideBar]
+InformationSplitterSizes=0,0
