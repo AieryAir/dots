@@ -1,6 +1,6 @@
 Dotfiles backup for my KDE Plasma 6 setup
 
-### Stuff Used
+## Stuff Used
 **Text Fonts**
 - Inter (System Font)
 - JetBrains Mono (VS Codium Font)
